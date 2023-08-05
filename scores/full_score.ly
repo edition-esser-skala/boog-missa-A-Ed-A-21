@@ -12,6 +12,7 @@
       <<
         \new StaffGroup <<
           \new Staff \with { \smallStaffDistance } <<
+            \set Staff.soloText = \markup \medium \remark "Solo"
             \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine #'(0 . 10) \KyrieClarinoI \KyrieClarinoII
           >>
@@ -79,7 +80,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 90 } %105
     }
   }
 }
