@@ -83,3 +83,46 @@ KyrieClarinoI = {
     e e d8. d16 c4 r\fermata \bar "|." %98 finis
   }
 }
+
+GloriaClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    g''4\fE r g r
+    e a g8. g16 g4
+    R1*3 %5
+    r8 e\fE e e f4 f
+    r8 \pa d d g16 f \pd e4 e
+    r a g g8 f16 e
+    e4 d c r
+    R1*18 %27
+    d4\fE d e8 g16 f e8 e
+    e8. d16 d4 r2
+    r a'4 a %30
+    g g8 f16 e e4 d
+    c r r2
+    R1*20 %52
+    \after 2. \tempoQuiTollis R1
+    R1*20 \noBreak %73
+    R1\fermata \bar "||"
+    \time 3/4 \tempoQuoniam \newSpacingSection R2.*13 %87
+    d4\fE d d
+    e4. e8 d d
+    e g16 f e8 e e e %90
+    e d r4 d
+    e r c
+    c r \pa d
+    d \pd r \pao e
+    e r \pao e %95
+    f r8 d d d
+    e4 r r
+    R2.
+    r4 r a
+    g r8 g g g %100
+    g g r g g g
+    e4 e^\critnote d
+    e r r
+    e d4. d8
+    c4 r r\fermata \bar "|." %105 finis
+  }
+}

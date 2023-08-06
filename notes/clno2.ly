@@ -50,3 +50,46 @@ KyrieClarinoII = {
     e16 g e c g'8. g16 e4 r\fermata \bar "|." %98 finis
   }
 }
+
+GloriaClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    e'4\fE r d r
+    c4. c8 d8. d16 d4
+    R1*3 %5
+    r8 c\fE c c d4 d
+    r8 g, g g c4 c
+    r f d c
+    g4. g8 e4 r
+    R1*18 %27
+    g4\fE g c c8 c
+    g8. g16 g4 r2
+    r f'4 f8 e %30
+    d4 e8 d16 c g4. g8
+    e4 r r2
+    R1*20 %52
+    \after 2. \tempoQuiTollis R1
+    R1*20 \noBreak %73
+    R1\fermata \bar "||"
+    \time 3/4 \tempoQuoniam \newSpacingSection R2.*13 %87
+    g4\fE g g
+    c4. c8 g g
+    c e16 d c8 c c c %90
+    g g r4 g
+    c r c,
+    c r d'
+    d r e
+    c r e %95
+    d r8 g, g g
+    c4 r r
+    R2.
+    r4 r f
+    d r8 d d d %100
+    e d r d d d
+    c4 g4. g8
+    c4 r r
+    c8 c, g'4. g8
+    e4 r r\fermata \bar "|." %105 finis
+  }
+}

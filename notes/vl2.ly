@@ -65,3 +65,93 @@ KyrieViolinoII = {
     e e d8. d16 c4 r\fermata \bar "|."
   }
 }
+
+GloriaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoGloria
+    e'4\fE e,8 e' d4 d,8 d'
+    c4 c,8 c' h4 h,8 h'
+    h4\p h,8 h' h4 h,8 h'
+    h4 h,8 h' c4 c,8 c'
+    c4 c,8 c' c( h) h, h' %5
+    c4\f c,8 c' d4 d,8 d'
+    h4 h,8 h' c4 c,8 e'
+    f4 f,8 f' d d, e e'
+    e4 h8 d c4 r
+    R1 %10
+    r2 c4\pE c,8 c'
+    d4 d,8 d' h4 h,8 h'
+    c4 c,8 c' a4 r
+    R1*2 %15
+    r2 e'4\fE e,8 e'
+    f4 f,8 f' d4 d,8 d'
+    e16 e f d^\critnote c8 h\trillE c4 r
+    R1
+    e4\fE e,8 e' d4 d,8 d' %20
+    d\trillE c r4 r2
+    r h4\fE h,8 h'
+    a4 a,8 a' a\trillE g r4
+    R1*2 %25
+    r2 d'4\fE d,8 d'
+    c4 c,8 c' h16 h c a g8 fis\trillE
+    g d' d, d' e4 e,8 e'
+    e8. d16 d4 e e,8 e'
+    c4 c,8 c' f4 f,8 f' %30
+    f d c e e e d d
+    e4 r r2
+    R1*12 %44
+    r2 r4 r8 c\p %45
+    d4 d,8 d' h4 h,8 h'
+    c4 c,8 c' c8.\trillE h16 h4
+    c e,8 c' c4 f,8 c'
+    d4 fis,8 d' d4 g,8 g'
+    e4 r r2 %50
+    R1
+    e4\fE e,8 e' d4 d,8 d'
+    c16 e, f d c8 h\trillE c4 \tempoQuiTollis g'
+    g2. f8 f
+    f4. f8 f e e4 %55
+    r8 e\p e e r e d d
+    r f f f r e f f
+    r f e e f4 r
+    R1*2 %60
+    r4 a8\f g fis4 g8 g
+    g4. g8 g8. fis16 fis4
+    r8 a\p a a r a g g
+    r c, c b r a b b
+    r a-\critnote a a g4 r %65
+    R1*2
+    r4 b'8\fE a gis4 a8 a
+    a4 a8 a a8.\trillE gis16 gis4
+    r8 h\p h h r e, e e %70
+    r d d c r h! c c
+    r c h h a4 r
+    R1 \noBreak
+    R\fermata \bar "||"
+    \time 3/4 \tempoQuoniam \newSpacingSection R2.*3 %77
+    r8 g''16\fE f e8 c' f, d'
+    e,4 r r
+    R2.*6 %85
+    r8 d16\fE c h8 g' c, a'
+    h,16 a g fis g8 h, a fis'
+    g, d'' d d d d
+    e g16 f e8 c' f, d'
+    e,4. e8 e e %90
+    e^\critnote d'16 c h8 d g, f
+    e4 r8 b b b
+    a4 r8 c c c
+    h!4 r8 d d d
+    c4 r c %95
+    f8 d4 h8 r d
+    e c4 a8 r c
+    d h4 g8 r-\critnote h
+    c d16 e f8 a d, e16 f
+    h,4 r8 d d d %100
+    e d r d d d
+    e4 e d
+    e8 g16 f e8 c' f, d'
+    e, c' g,,4 d''
+    c r r\fermata \bar "|." %105 finis
+  }
+}
