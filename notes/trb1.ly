@@ -139,3 +139,112 @@ GloriaTromboneI = {
     g4 r r\fermata \bar "|." %105 finis
   }
 }
+
+CredoTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoCredo
+    g'4\fE g8 g g g
+    g4 g g
+    f2 g4
+    g2 g4
+    a fis a %5
+    g2 g4
+    g g fis
+    g g g
+    gis4. gis8 gis4
+    a4. a8 a4 %10
+    a4. a8 a4
+    a a gis8. gis16
+    a4 r r
+    R2.*36 %49
+    r4 r g\fE %50
+    g g g
+    g4. g8 g4
+    g a a8 g
+    f a g4 g
+    g g g %55
+    g g r
+    g e f
+    d e c
+    d8 e16 f g4 g
+    g g2 \noBreak %60
+    g4 r r\fermata \bar "||"
+    \key f \dorian \time 4/4 \tempoEtIncarnatus \newSpacingSection
+      r2 r8 f\fE f f \noBreak
+    g4. g8 g f as g16 as
+    f2 e4 fis8 g
+    ges4 f e8. e16 f8 f %65
+    f4 es d es
+    d4. d8 c4 r
+    R1*6 \noBreak
+    R1\fermata \bar "||"
+    \key c \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      R2.*24 %98
+    r4 g'8\fE g g g
+    g4 g r %100
+    g g r
+    \tempoEtMortuos es2.\p
+    f
+    es2 es4
+    d \tempoCuius r g8\f g %105
+    f4 a8 g f a
+    g4 g g
+    g4. g8 g4
+    g g2
+    g4 r r %110
+    R2.*15 %125
+    g4.\fE g8 g g
+    g4 g g
+    g4. g8 g g
+    g4 g g8 h
+    a4 a8 g g4 %130
+    g g2
+    g4 r r
+    R2.*14 %146
+    r4 g\fE g
+    g2 f!8 e
+    f4 f f
+    f2^\critnote e8 d %150
+    e4^\critnote g8 g g g
+    g4 g r
+    \tempoMortuorum R2.
+    r4 g\p g
+    fis2. %155
+    \tempoEtVitam g2 g4\f
+    g^\critnote g e!
+    f f a
+    g g g
+    g8 g g2 %160
+    g4 r r
+    R2.*3
+    r8 c,16 d e f g a d, e f g %165
+    c,4 e fis
+    g g fis
+    g c, f
+    e g f
+    e e d %170
+    d r h'~
+    h8 a a4 a~
+    a8 gis gis4 gis
+    a a gis
+    a r r %175
+    R2.
+    r8 e16 fis g! a h c fis, g a h
+    e,4 fis gis
+    a f e e
+    a2 %180
+    g!4 g a
+    h e,2
+    e4 a2
+    a4 a2
+    g4 g2 %185
+    g4 g2
+    a4 a fis
+    g g2
+    g4 r g
+    g r g %190
+    g g2
+    g2 r4\fermata \bar "|." %192 finis
+  }
+}

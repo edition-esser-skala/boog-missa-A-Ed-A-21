@@ -155,3 +155,162 @@ GloriaViolinoII = {
     c r r\fermata \bar "|." %105 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoCredo
+    e'16\fE f g g, c4 c'
+    h16 c d fis, g4 g,,
+    f''!16 g a f d e f d h c d h
+    e4 e, e'
+    c16 d e c a h c a fis8 a %5
+    g16 a h g h,8. h'16 h4
+    r16 e d c h8 g' a, fis'
+    g4 g,, d''
+    h16 c d h gis a h gis e4
+    c'16 d e c a4 a, %10
+    a'16 h c a a,8. c'16 c4
+    r16 f e d c8 a' h, gis'
+    a,16 h c a c,8. c'16 c4
+    r16 d c h a8 a' h, gis'
+    a,4 r r %15
+    r e'16 fis gis e gis, a h gis
+    gis,4 r r
+    r c'16 d e c a h c a
+    d,4 r r
+    R2.*3 %22
+    c'16 d e c e,8. e'16 e4
+    r16 f e d c8 c' d, h'
+    c,4 r r %25
+    R2.
+    r4 a16 h c a c, d e c
+    a4 r r
+    R2.
+    r4 r fis'16 g a fis %30
+    g a h g e4 r
+    R2.*5 %36
+    g16 a h g a h c a fis g a fis
+    dis8. fis16 fis4 g
+    r16 a-\critnote g fis e4 dis
+    e r g\p %40
+    a a16 h c a c, d e c
+    a4 r fis'
+    g h16 c d h d, e f d
+    e f g e c4 r
+    R2.*5 %49
+    r4 r e'\fE %50
+    d16 e f d h c d h g a h g
+    c4 e d
+    e e e
+    f f f
+    e e e %55
+    e d d
+    e16 f g e c4 d16 e f d
+    h4 c16 d e c a4
+    f'8 e d16 e f d e4
+    e e d \noBreak %60
+    c r r\fermata \bar "||"
+    \key f \dorian \time 4/4 \tempoEtIncarnatus \newSpacingSection
+      r2 r8 f,\fE f f \noBreak
+    g4. g8 g f as g16 as
+    f2 e4 fis8 g
+    ges4 f e f %65
+    f es d c8 c
+    c c h h c g'\p es'16 g, \once \slurDashed as( g)
+    as4 r16 f g( f) g4 r
+    r16 \once \slurDashed d es( d) d4 r16 e f( e) r e f( e)
+    r c \once \slurDashed b( c) as4 r2 %70
+    R1*2
+    f'16\f as b( as) g g as( g) f as g( as) b( as) as( g) \noBreak
+    as8 f4 e8 f4 r\fermata \bar "||"
+    \key c \major \time 3/4 \tempoEtResurrexit \newSpacingSection
+      R2.*6 %80
+    r8 h16\f c d8 h a g
+    a a16 h c8 a g fis
+    g16 h a g g'8 h, a fis'
+    g,4 r r
+    R2.*8 %92
+    r8 f16\fE g a8 f e d
+    e e16 f g8e  d cis
+    d16 f e d d'8 f, e cis' %95
+    d,4 r r
+    R2.*2
+    r8 g16\fE a h8 d g16 f e d
+    c4 h r %100
+    e d r
+    \tempoEtMortuos r8 es,\p es es es es
+    r f-\critnote f f f f
+    r es es es es es
+    d h \tempoCuius g4 c'8\f e! %105
+    a,4 a8 c f16 e d c
+    h8 h16 c d8 h16 c d8 f
+    e8. e16 e8 d e4
+    e d4. d8
+    c4 r r %110
+    R2.*2
+    r8 h16 c d8 h a g
+    R2.*5 %118
+    r8 c16\f d e8 c h a
+    h h16 c d8 h a gis %120
+    a16 c h a a'8 c, h gis'
+    e,4 r8 a4\p a8
+    f d'16 e f8 f, e d
+    h4 r8 d4 d8
+    e c'16 d e8 e, d c %125
+    h\fE h'16 c d8 h c e
+    e d d d d d
+    c c16 d e8 h c e
+    e8. d16 d8 g d e
+    f4 f8^\critnote d e e %130
+    e e e e d d
+    c e,16 f g8 c d, h'
+    c,4 r r
+    r8 h'16 c d8 h a g
+    R2. %135
+    r8 c16 d e8 e, d c
+    R2.*10 %146
+    r4 e'\fE e
+    e8 cis16 d e8 g, f e
+    f4 a f'
+    f8 d16 e f8 d c h %150
+    c e e e e e
+    e4 d r
+    \tempoMortuorum R2.
+    r8 g,\p g g g g
+    r fis fis fis fis fis %155
+    \tempoEtVitam g h16\fE c d8 d, c h
+    r c'16 d e8 g, f e
+    r d'16 e f8 f, e d
+    r d'16 e f8 d e4
+    c' d, d' %160
+    c, r r
+    R2.*5 %166
+    r8 g16 a h c d e a, h c d
+    g,4 a h
+    c c h
+    c c4. c8 %170
+    h4 g' f!
+    e fis e
+    d e d
+    c8 a' h, a' h, gis'
+    a,4 a gis %175
+    a e' fis
+    h, r r
+    R2.
+    r8 a16 h c d e f! h, c d e
+    a,4 cis dis %180
+    e e dis
+    e e d^\critnote
+    c! e2
+    d4 d2
+    d4 d2 %185
+    e4 e2
+    f4 d c
+    h g' f!
+    e8 e,16 f g a h c d e f d
+    e8 e,16 f g a h c d e f d %190
+    e8 c' d,4 h'
+    c,2 r4\fermata \bar "|." %192 finis
+  }
+}
