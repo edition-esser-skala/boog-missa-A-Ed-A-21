@@ -839,3 +839,76 @@ CredoBassFigures = \figuremode {
   r <4> <3>
   r2. %192 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoSanctus
+    \mvTr c'4\fE-\tuttiE c, g' g,
+    r2 e'4. e8
+    a4 a, a'4. a8
+    d,8. d16 d4 g g8 g
+    c,4 c e8 d c h %5
+    c h a g a2 \noBreak
+    g\fermata \tempoPleni r \noBreak
+    r8 g' g4 c8 c, e g
+    c4 c16 b a g a g f8 f16 e e d
+    g4~ g16 f f e \once \tieDashed a4~ a16 h c d %10
+    h a h g c8 c, g'4 g,
+    c8 \clef treble g''[ a g] f e d16 e f g
+    << {
+      r8 c e d c h a16 h c d
+      g,8
+    } \\ {
+      c,4 r8 g'4 g8 fis16 g e fis
+      g8
+    } >> \clef bass g,[ a g] f e d16 e f g
+    c,4 r8 g'4 g8 fis16 g e fis %15
+    g4 c, d2
+    c8 e a g f e d16 e f g
+    e8 d c16 d e f d8 c h16 c d e
+    a,4 \clef "treble_8" r8 a'4 a8 gis16 a fis gis
+    a8 \clef bass a[ c h] a! g fis16 g? a h %20
+    e,4 gis a \clef "treble_8" a8 g
+    f e d e16 f g8 d g16 a f g
+    e8 \clef bass e[ a g] f e d16 e f g
+    e8 d c16 d e f d8 c h16 c d e
+    c8 h a16 h c d \tieDashed g,2~-\tasto %25
+    g1~
+    g2 \tieSolid r8 g' a g
+    f e d16 e f g e8 c e f
+    g2 c,\fermata \bar "|." %29 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r1
+  r2 <7 _+>
+  r1
+  r
+  r2.. <[6]>8 %5
+  r2 <7>4 <6\\>
+  r1
+  r
+  r2 \bo <[6 _]>4 <6>
+  <5> <6> <5> <6> %10
+  q2 <6 4>4 \bc <[5 3]>
+  r1
+  r
+  r2 <6 5>4 <6>
+  r4. <3>8 <2>4 <[6]> %15
+  r4 \bo <[6]>8 \bc <[5]> <7>4 <6>
+  r2 <6 5>4 <6>
+  <6 5> <6> <6 5> <6\\>
+  r4. <3>8 <2>4 <[6]>
+  r4 <6>8 <6! [4]> <6\\ 5>4 <[6\\]> %20
+  r4 <6>8 <5!> <9>4 <8>
+  r2 <9>4 \bo <[8 _]>
+  <6>2 <6 5>4 \bc <[6 _]>
+  <6 5>4 <6> <6 5> <6>
+  <6 5> <6\\>2. %25
+  r1
+  r
+  <[6 5]>4 <6> \bo <[6 _]>4. <6 5>8
+  <6 4>4 \bc <[5 3]>2. %29 finis
+}

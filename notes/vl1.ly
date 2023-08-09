@@ -316,3 +316,39 @@ CredoViolinoI = {
     c,2 r4\fermata \bar "|." %192 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoSanctus
+    r8 c''\fE c c h16( g) fis( g) h( g) fis( g)
+    g,,4 r r8 gis'' gis gis
+    a16 a gis( a) c( a) gis( a) a,,8 c'' c c
+    r16 f, e( f) \slurDashed a( f) e( f) g,,8 h'' h h
+    c16 c h( c) e( c) h( c) \slurSolid c,,8 e' e g %5
+    e g g g g16( c,) h( c) a'( c,) h( c) \noBreak
+    h32 g fis? e d c h a g4\fermata \tempoPleni r8 g' h d \noBreak
+    g4 g16 f! e d e d c8 r4
+    r8 e e4 f8 a, a16 h c d
+    h g' g8\trill h,16 c d e c a' a8\trill c,16 d e f %10
+    d8 h' c c c4 h
+    c r r2
+    r8 c, e d c h a16 h c d
+    g,4 r8 c4 c8 h16 c a h
+    c4 g a2 %15
+    h4 c8 e d2
+    e4 c c h
+    h a a gis
+    r8 e' f e d c h16 c d e
+    a,4 r8 e'4 e8 dis16 e cis dis %20
+    e8 h e16 f d e c4 c
+    r8 c16 c d e c d h2
+    c4 e d2
+    c h
+    a g %25
+    r8 c f e d c h16 c d e
+    c8 h a16 h c d h4 r8 e
+    d e f8. e32 d e4 e8 d
+    \appoggiatura e4 d2 c\fermata \bar "|." %29 finis
+  }
+}

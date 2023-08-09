@@ -598,15 +598,83 @@ CredoSopranoLyrics = \lyricmode {
   men. %192 finis
 }
 
-% a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men, a -- men,
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \autoBeamOff \tempoSanctus
+    \mvDl e'4.\fE^\tutti e8 d4 d
+    d d d2
+    c e4. e8
+    f8. f16 f4 d d8 d
+    e4 e c e8 g %5
+    e([ d)] c([ h)] c4. c8 \noBreak
+    h2\fermata \tempoPleni r8 g h d \noBreak
+    g4 g16([ f)] e([ d)] e([ d)] c8 r4
+    r8 e e4 f8 a,~ a16[ h c d]
+    h4~ h16[ c d e] c4~ c16[ d e f] %10
+    d4 e8 e e4( d)
+    c r r2
+    r8 c e d c h a16([ h c d)]
+    g,4 r8 c4 c8 h16([ c a h)]
+    c4 g a2 %15
+    h4 c8 e d2
+    e4 c c h
+    h a a gis
+    r8 e' f e d c h16([ c d e)]
+    a,4 r8 e'4 e8 dis16([ e cis dis)] %20
+    e8 h e16([ f d e] c4) c
+    r8 c16 c d([ e c d] h2)
+    c4 e d2
+    c h
+    a g %25
+    r8 c f e d c h16[ c d e]
+    c8[ h] a16[ h c d] h4 r8 e
+    d[( e] f8.[ e32 d]) e4 e8 d
+    \appoggiatura e4 d2 c\fermata \bar "|." %29 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- ctus, san -- ctus,
+  san -- ctus, san --
+  ctus, san -- ctus
+  Do -- mi -- nus, Do -- mi -- nus
+  De -- us, Do -- mi -- nus %5
+  De -- us __ Sa -- ba --
+  oth. Ple -- ni sunt
+  coe -- li __ et __ ter -- ra,
+  et ter -- ra, glo --
+  _ _ %10
+  _ ri -- a tu --
+  a.
+  O -- san -- na in ex -- cel --
+  sis, in ex -- cel --
+  sis, o -- san -- %15
+  na in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na in ex -- cel --
+  sis, in ex -- cel -- %20
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san --
+  _ _
+  _ na, %25
+  o -- san -- na in ex -- cel --
+  _ _ sis, o --
+  san -- na in ex --
+  cel -- sis. %29 finis
+  % O -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+  % o -- san -- na in ex -- cel -- sis,
+}
 
 
-% San -- ctus Do -- mi -- nus De -- us Sa -- ba -- oth.
-% Ple -- ni sunt coe -- li et ter -- ra glo -- ri -- a tu -- a.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Benedictus
 
 % Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
 % O -- san -- na in ex -- cel -- sis.
