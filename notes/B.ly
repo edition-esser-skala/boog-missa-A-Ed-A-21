@@ -568,3 +568,48 @@ SanctusBassoLyrics = \lyricmode {
   in ex -- cel -- sis, in ex --
   cel -- sis. %29 finis
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*41 %41
+    R1\fermata \bar "||"
+    \key c \major \tempoPleni R1*2
+    r8 \mvTr g'\fE^\tutti a g f e d16([ e f g)] %45
+    c,4 r8 g'4 g8 fis16([ g e fis)]
+    g4 c, d2
+    c8 e a g f e d16[ e f g]
+    e8[ d] c16[ d e f] d8[ c] h16[ c d e]
+    a,4 r r2 %50
+    r8 a' c h a g fis16[ g? a h]
+    e,4 gis a r
+    R1
+    r8 e a g f e d16[ e f g]
+    e8[ d] c16[ d e f] d8[ c] h16[ c d e] %55
+    c8[ h] a16[ h c d] g,2~
+    g1
+    g2 r8 g' a g
+    f e d16([ e f g] e8) c e f
+    g2 c,\fermata \bar "|." %60 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  O -- san -- na in ex -- cel -- %45
+  sis, in ex -- cel --
+  sis, o -- san --
+  na, o -- san -- na in ex -- cel --
+  _ _ _ _
+  sis, %50
+  o -- san -- na in ex -- cel --
+  _ _ sis,
+
+  o -- san -- na in ex -- cel --
+  _ _ _ _ %55
+  _ _ _
+
+  sis, o -- san -- na
+  in ex -- cel -- sis, in ex --
+  cel -- sis. %60 finis
+}

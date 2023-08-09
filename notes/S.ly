@@ -664,23 +664,106 @@ SanctusSopranoLyrics = \lyricmode {
   _ _ sis, o --
   san -- na in ex --
   cel -- sis. %29 finis
-  % O -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
-  % o -- san -- na in ex -- cel -- sis,
+}
+
+BenedictusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*7 %7
+    \once \tieDashed \mvTr d'4~\pE^\solo d16[ h] a([ g]) a([ fis)] g8 r d'
+    e8.([ fis32 g)] d8 g, c8.([ d32 e)] d8 c
+    h8. a16 g4 r2 %10
+    R1
+    r8 a d cis16 d h8[ cis16 d] e[ fis d e]
+    cis8[ d16 e] fis[ g e fis] d8[ e16 fis] g[ fis e d]
+    cis8.[ h32 a] d8 e d4( cis8.) cis16
+    d4 r r2 %15
+    R1*4
+    a4. d8 e16([ cis)] d8 r a %20
+    h8.([ cis32 d)] e8 d cis e16 d cis([ h)] a([ g)]
+    fis4 r8 a16([ h)] c8.([ d32 e)] d8 c
+    h[( cis16 dis]) e8 fis16([ e)] dis cis h8 r h
+    c8.[ d32 e] d16[\trill c c\trill h] h8.[\trill c32 d] c16[\trill h h\trill a]
+    a8.[\trill h32 c] h16[ a g fis] g8 h e4~ %25
+    e8 fis16 cis dis8.\trillE dis16 e4 r
+    R1*2
+    h8 h e d!16 e c([ h)] a8 r a16([ h)]
+    c8 d16 e d8 c16 d h a g8 r d' %30
+    e4~ e16[ c h a] d4~ d16[ h a g]
+    c8 h16 c d8 c16 d \tuplet 3/2 8 { h[( c d] c[ d e] } d8) c16([ h)]
+    a4 r8 a \tuplet 3/2 8 { h16[ c h } h8] \tuplet 3/2 8 { c16[ d c } c8]
+    \tuplet 3/2 8 { d16[ e d } d8] \tuplet 3/2 8 { e16[ fis e } e8] \tuplet 3/2 8 { fis16[ g fis } fis8]\trill \once \tieDashed g4~
+    \tuplet 3/2 8 { g16[ fis e] } d c h8([ a16)] a g4 r %35
+    R1*6 \noBreak %41
+    R1\fermata \bar "||"
+    \key c \major \tempoOsanna R1 \noBreak
+    r8 \mvTr c\fE^\tutti e d c h a16([ h c d)]
+    g,4 r8 c4 c8 h16([ c a h)] %45
+    c4 g a2
+    h4 c8 e d2
+    e4 c c h
+    h a a gis
+    r8 e' f e d c h16([ c d e)] %50
+    a,4 r8 e'4 e8 dis16([ e cis dis)]
+    e8 h e16([ f d e] c4) c
+    r8 c16 c d([ e c d] h2)
+    c4 e d2
+    c h %55
+    a g
+    r8 c f e d c h16[ c d e]
+    c8[ h] a16[ h c d] h4 r8 e
+    d[( e] f8.[ e32 d]) e4 e8 d
+    \appoggiatura e4 d2 c\fermata \bar "|." %60 finis
+  }
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+  Be -- ne -- di -- ctus, qui %8
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, %10
+
+  qui ve -- nit in no -- _
+  _ _ _ _
+  _ mi -- ne Do -- mi --
+  ni. %15
+
+  Be -- ne -- di -- ctus, qui %20
+  ve -- nit in no -- mi -- ne Do -- mi --
+  ni, qui ve -- nit in
+  no -- mi -- ne Do -- mi -- ni, qui
+  ve -- _ _ _
+  _ _ nit in no -- %26
+  mi -- ne Do -- mi -- ni.
+
+  Be -- ne -- di -- ctus, qui ve -- nit, qui %29
+  ve -- nit in no -- mi -- ne Do -- mi -- ni, in %30
+  no -- _
+  _ mi -- ne, no -- mi -- ne Do -- mi --
+  ni, in no -- _
+  _ _ _ _
+  mi -- ne Do -- mi -- ni. %35
+
+  O -- san -- na in ex -- cel -- %44
+  sis, in ex -- cel -- %45
+  sis, o -- san --
+  na in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel -- sis,
+  o -- san -- na in ex -- cel -- %50
+  sis, in ex -- cel --
+  sis, o -- san -- na
+  in ex -- cel --
+  sis, o -- san --
+  _ _ %55
+  _ na,
+  o -- san -- na in ex -- cel --
+  _ _ sis, o --
+  san -- na in ex --
+  cel -- sis. %60 finis
 }
 
 
-
-% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
-% O -- san -- na in ex -- cel -- sis.
-
-
-% ## Agnus Dei
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
 % Mi -- se -- re -- re no -- bis.

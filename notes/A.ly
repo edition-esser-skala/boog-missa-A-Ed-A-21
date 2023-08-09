@@ -667,3 +667,52 @@ SanctusAltoLyrics = \lyricmode {
   san -- na __ in ex --
   cel -- sis. %29 finis
 }
+
+BenedictusAlto = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \autoBeamOff \tempoBenedictus
+    R1*41 %41
+    R1\fermata \bar "||"
+    \key c \major \tempoPleni
+      r8 \mvTr g'\fE^\tutti a g f e d16([ e f g)]
+    c,4 r8 g'4 g8 fis16([ g e fis)]
+    g4 e d2 %45
+    c4 r r2
+    r8 g' a g f e d16([ e f g)]
+    c,8 g' e e a g16([ a)] f[ g a h]
+    g8[ f16 g] e[ f g a] f8[ e16 f] d4
+    c r r2 %50
+    r4 a'8 g! fis([ g] a4)
+    g h h8.([ a16)] a4
+    a2 a4 g
+    g e a8[ g16 a] f[ g a h]
+    g8[ f16 g] e[ f g a] f8[ e16 f] d[ e f g] %55
+    e8[ d16 e] c4 h8 d g4(
+    e) a f g
+    fis2 g4 e
+    a a8.([ g16)] g4. a8
+    g2 g\fermata \bar "|." %60 finis
+  }
+}
+
+BenedictusAltoLyrics = \lyricmode {
+  O -- san -- na in ex -- cel --
+  sis, in ex -- cel --
+  sis, o -- san --
+  na, %15
+  o -- san -- na in ex -- cel --
+  sis, o -- san -- na in ex -- cel --
+  _ _ _ _
+  sis,
+  in ex -- cel -- %20
+  sis, o -- san -- na,
+  o -- san -- na
+  in ex -- cel -- _
+  _ _ _ _
+  _ _ sis, o -- san -- %25
+  na in ex --
+  cel -- sis, o --
+  san -- na __ in ex --
+  cel -- sis. %29 finis
+}

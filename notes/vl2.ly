@@ -350,3 +350,69 @@ SanctusViolinoII = {
     \appoggiatura e4 d2^\critnote c\fermata \bar "|." %29 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 4/4 \tempoBenedictus
+    r8 d'16.\fE fis,32 g8 g a16 fis g8 \slurDashed \sbOn d'32( c h a) g16 g \sbOff
+    a fis g8 e'8.\trill fis32 g d16 g h, g g fis c' h
+    a4 r16 a cis,( d) r h' dis,( e) r cis' eis,( fis)
+    r d'! fis,( g) e'!8 a,, \sbOn fis''32( d cis h) a16. g'32 \sbOff fis8 e\trill \slurSolid
+    d4 d,16( e) e( f) \tuplet 3/2 8 { e d c } e'8 e,16( fis) fis( g) %5
+    \tuplet 3/2 8 { fis e d } a''8 a,16( h) h( c!) h g' g8\trillE c,16( h) h( a)
+    \sbOn \tuplet 3/2 8 { h c d } d, d \sbOff e16( fis) fis( g) g32( a h c d e fis g) a,8.\trillE g16
+    g8 g, r4 r2
+    R1
+    r8 d''16\fE fis, g8 g a16 fis g8 \sbOn \once \slurDashed d'32( c h a) g16 g \sbOff %10
+    a fis g8 e'8.\trill fis32 g d16 g h, g g fis c' h
+    \appoggiatura h8 a4 r4 r2
+    R1*2
+    r8 a'16\fE cis, d8 d e16 cis d8 \sbOn a'32( g fis e) d16 d \sbOff %15
+    e cis d8 h8.\trill cis32 d a16 d fis, d d cis g' fis
+    \appoggiatura fis8 e4 \slurDashed a,16( h) h( c) \slurSolid \tuplet 3/2 8 { h a g } h'8 h,16( cis) cis( d)
+    \tuplet 3/2 8 { cis h a } e''8 e,16( fis) fis( g!) fis d' d8\trill g,16( fis) fis( e)
+    \sbOn \tuplet 3/2 8 { fis g a } a, a \sbOff h16( cis) cis( d) d32( e fis g a h cis d) e,4\trill
+    d r r2 %20
+    R1
+    r8 a''16\f cis, d8 d, r2
+    r r4 r16 \slurDashed h'\p dis,( e)
+    r e' gis,( a) \slurSolid r a e( fis) r d'! fis,( g) r g dis( e)
+    r c' e,( fis) h,4 r2 %25
+    r r8 e'\f h16( c!) c( d!)
+    \tuplet 3/2 8 { c h a } a'8 a,16( h) h( c) \tuplet 3/2 8 { h a g } g'8 g,16( a) a( h)
+    \tuplet 3/2 8 { a g fis } fis'8 fis,16( g) g( fis) e32( fis g a h cis dis e) g,8 fis
+    e4 r r8 e'16\pE gis, a8 a,
+    r2 r8 d'16\f fis, g8 g, %30
+    r16 e''\p gis, a a,4 r16 d' fis, g g,4
+    R1
+    \slurDashed r16 a''\f cis,( d) d, a'\p cis,( d) \slurSolid r h' dis,( e) r c' e,( fis)
+    r d'! fis,( g) r e' gis,( a) r fis' a,( h) g'8 g,,
+    r2 r8 d''16\f fis, g8 g %35
+    a16 fis g8 \sbOn d'32( c h a) g16 g \sbOff a16 fis g8 e'8.\trill fis32 g
+    d16 g h, g g fis c' h \appoggiatura h8 a4 r16 a cis,( d)
+    r h' dis,( e) r cis' eis,( fis) r d' fis,( g) e'8 a,,
+    \sbOn \once \slurDashed fis''32( d cis h) a16. g'32 \sbOff fis8 e\trill d4 d,16( e) e( f)
+    \tuplet 3/2 8 { e d c } e'8 e,16( fis) fis( g) \tuplet 3/2 8 { fis e d } a''8 a,16( h) h( c) %40
+    h^\critnote g' g8\trillE c,16( h) h( a) \sbOn \tuplet 3/2 8 { h c d } d, d \sbOff e( fis) fis( g) \noBreak
+    g32( a h c d e fis g) \appoggiatura h,8 a8.\trillE g16 g8 g, r4\fermata \bar "||"
+    \key c \major \tempoOsanna r8 g'\fE a g f e d16 e f g
+    c,4 r8 g'4 g8 fis16 g e fis
+    g4 e d2 %45
+    c4^\critnote r r2
+    r8 g' a g f e d16 e f g
+    c,8 g' e e a g16 a f g a h
+    g8 f16 g e f g a f8 e16 f d4
+    c r r2 %50
+    r4 a'8 g! fis g a4
+    g h h8. a16 a4
+    a2 a4 g
+    g e a8 g16 a f g a h
+    g8 f16 g e f g a f8 e16 f d e f g %55
+    e8 d16 e c4 h8 d g4
+    e a f g
+    fis2 g4 e
+    a a8. g16 e'4 e8 d^\critnote
+    \appoggiatura e4 d2^\critnote c\fermata \bar "|." %60 finis
+  }
+}

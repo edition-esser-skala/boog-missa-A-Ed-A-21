@@ -195,3 +195,18 @@ SanctusClarinoII = {
     g4. g8 e2\fermata \bar "|." %29 finis
   }
 }
+
+BenedictusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*41 %41
+    R1\fermata \bar "||"
+    \tempoPleni R1*4 %46
+    r4 r8 e'\fE d4. d8
+    c4 r r2
+    R1*10 %58
+    r4 r8 g c e16 d c8 c
+    g4. g8 e2\fermata \bar "|." %60 finis
+  }
+}

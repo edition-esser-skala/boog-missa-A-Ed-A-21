@@ -229,3 +229,18 @@ SanctusClarinoI = {
     \appoggiatura e4 d2 c\fermata \bar "|." %29 finis
   }
 }
+
+BenedictusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoBenedictus
+    R1*41 %41
+    R1\fermata \bar "||"
+    \tempoPleni R1*4 %46
+    r4 r8 g''\fE f4. f8
+    e4 r r2
+    R1*10 %58
+    r4 r8 d e g16 f e8 d
+    \appoggiatura e4 d2 c\fermata \bar "|." %60 finis
+  }
+}
