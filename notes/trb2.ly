@@ -307,3 +307,50 @@ BenedictusTromboneII = {
     c4 h c2\fermata \bar "|." %60 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \dorian \time 4/4 \tempoAgnus
+    R1*26 %26
+    r2 r4 \key c \major c8\fE c
+    c4 h r d^\critnote
+    e e8 e c4 c8 c
+    a4 d8 d d4 d8 g, %30
+    es'4. es8 es4 d8 c \noBreak
+    d1\fermata \bar "||"
+    \tempoDona R1*3 %35
+    c4. c8 h c d h
+    c e d16 e c d h8 h e c
+    a h c h16 a h8 c d4
+    e r8 a, d c16 h a8 d
+    g,4 a8 d d4 r %40
+    r8 d c d d h c d
+    c4 r8 a h16 d g,8 r g
+    a16 c f,8 r f' e4. d8
+    c a f' e e4 r
+    R1 %45
+    r2 r8 c f d
+    h c d e16 d c8 a g! fis
+    e4 r8 c' a g fis h
+    h e16 d! c8 h a4 r
+    r2 r4 r8 c %50
+    f d h a g a16 h c8 h
+    a4. g16 a h4 c~
+    c8 a h4. g8 a c
+    d fis e d d g, g4
+    a2 h8 e e d %55
+    d4 r r2
+    R1*2
+    r2 g,4. g8
+    fis g a fis g g g4 %60
+    g r8 a d c h16 c d h
+    c4 r8 e d2
+    c h
+    a g4 g
+    c a \once \tieDashed g2~ %65
+    g1
+    g8 e' d c h a g h
+    c c c h c4 r\fermata \bar "|." %68 finis
+  }
+}

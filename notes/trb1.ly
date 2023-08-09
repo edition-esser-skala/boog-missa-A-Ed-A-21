@@ -312,3 +312,77 @@ BenedictusTromboneI = {
     g2 g\fermata \bar "|." %60 finis
   }
 }
+
+AgnusTromboneI = {
+  \relative c' {
+    \clef alto
+    \key c \dorian \time 4/4 \tempoAgnus
+    r8 \mvTr c\fE-\solo g' h, c d16 es d8 es16 f
+    es8 f16 g as8 c, c h r16 d g f
+    es d c8 r g' as4~ as16 f b as
+    g4~ g16 es as g f4~ f16 d g f
+    es8 as g f es4 d\trill %5
+    c r r2
+    R1*2
+    r4 r8 d\pE es4~ es16 c f es
+    d4~ d16 b es d c4~ c16 a d c %10
+    b4 r r2
+    r r8 d\fE b'4~
+    b16 g c b a4~ a16 f b a g4~
+    g16 e a g fis4 g16 b a g g8 fis
+    g4 r r2 %15
+    R1
+    r4 r8 d\pE es4 fis
+    g8 f \appoggiatura f es4\trill d r
+    r g8 c, \once \tieDashed as'4~ as16 f b as
+    g4~ g16 es as g f4~ f16 d g f %20
+    es4 r r2
+    r r8 c\fE g' h,
+    c d16 es d8 es16 f es8 f16 g as8 c,
+    c h r16 d g f es d c8 r g'
+    \once \tieDashed as4~ as16 f b as g4~ g16 es as g %25
+    f4~ f16 d g f es8 as g f
+    es4 d\trill c \key c \major g'8-\tutti g
+    g4 g r g
+    g g8 g g f f f
+    a4 a8 a a g g4 %30
+    r8 g as a g2 \noBreak
+    g1\fermata \bar "||"
+    \tempoDona R1 \noBreak
+    r2 g4. g8
+    fis g a fis g a g16 a f g %35
+    e8 e a f d e f e16 d
+    e4 fis g r8 e
+    a g16 fis e8 a g e16 fis g4
+    g r r2
+    r g4. g8 %40
+    fis g a fis g4 f8 g
+    g4 r8 a16 f d4^\critnote g8 e
+    c4 f8 d h e fis gis
+    a a a gis a4 r
+    R1 %45
+    r2 a4. a8
+    gis a h gis a c h16 c a h
+    g8 h g a^\critnote a h a fis
+    e gis gis4 a r
+    r2 r4 r8 a %50
+    a4 g! g8 g e fis16 g
+    a2 d,4 r8 g
+    a4 fis8 fis g4 e8 e
+    fis4 g8 a g h a g
+    fis e d fis g g g fis %55
+    g4 r r2
+    R1
+    r8 e a f d e f g16 f
+    e8 g fis g16 a g4 r8 e
+    d2 d8 d d4 %60
+    e8 g e a f g16 a g4
+    g8 g a8. g16 f8 a g8. f16
+    e8 g f8. e16 d8 f e8. d16
+    c8 e d8. c16 h8 g'4 g8
+    fis g a fis g a16 g f8 g16 f %65
+    e4. f16 e d2
+    c4 g' g2
+    g8 a a g g4 r\fermata \bar "|." %68 finis
+  }
+}

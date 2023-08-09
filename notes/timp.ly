@@ -196,3 +196,38 @@ BenedictusTimpani = {
     g4. g8 c2\fermata \bar "|." %60 finis
   }
 }
+
+AgnusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoAgnus
+    R1*26 %26
+    r2 r4 c8\fE c
+    g4 g r g
+    c8. c16 c4 r2
+    r g8. g16 g4 %30
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoDona R1*6 %38
+    c4 r g r
+    c r g r %40
+    r2 g4 r8 g
+    c4 r r2
+    R1*11 %53
+    r2 g4 r
+    r2 g4 r %55
+    g r r2
+    R1
+    c4 r g r8 g
+    c4 r g r
+    r2 r8 g g g %60
+    c4 r g r
+    c r r r8 g
+    c4 r r r8 g
+    c4 r g r
+    r2 g4 r8 g %65
+    g4-\critnote r g4. g8
+    c4 r g4. g8
+    c4 r8 g c4 r\fermata \bar "|." %68 finis
+  }
+}

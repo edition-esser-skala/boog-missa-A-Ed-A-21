@@ -763,11 +763,91 @@ BenedictusSopranoLyrics = \lyricmode {
   cel -- sis. %60 finis
 }
 
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    R1*26 %26
+    r2 r4 \key c \major \mvTr e'8\fE^\tutti e
+    e4 d r h
+    c b8 b b([ a)] a a
+    d4 c8 c c([ h)] h4 %30
+    r8 c c c c4( h8[ a)] \noBreak
+    h1\fermata \bar "||"
+    \tempoDona \mvTr c4. c8 h c d([ h)] \noBreak
+    c e( d16[ e c d]) h8 h([ e c)]
+    a h( c[ h16 a)] h8 c( d4) %35
+    e r8 a,( d[ c16 h] a8[ d)]
+    g, g( a4) h r
+    R1
+    c4. c8 h c d([ h)]
+    c e( d16[ e c d)] h8 h([ e c)] %40
+    a h( c[ h16 a] h[ c d e] f!4)
+    e8 e([ f d)] h h([ e c)]
+    a a([ d h)] gis gis([ a h]
+    c) c h4 a r
+    R1*3 %47
+    e'4. e8 dis e fis([ dis)]
+    e h( e16[ f d e)] c8 c([ f d)]
+    h c( d[ e16 d]) c4 \once \tieDashed c~ %50
+    c8[ h16 a] h4 c r8 \once \tieDashed e~
+    e[ d16 c] d8[ c] h8 d( e4)
+    c8 c( d4) h8 h( c4)
+    a8 d( c4) h8 \tieDashed d~ d4~
+    d2 \tieSolid d8 c16([ h] a4) %55
+    g r r2
+    R1*2
+    r2 r8 h([ e c)]
+    a h( c[ h16 a] h2) %60
+    c4 r8 c( f[ e] d4)
+    e r8 e f16[ e d c] h8[ d]
+    e16[ d c h] a8[ c] d16[ c h a] g8[ h]
+    c8.[ h16] a8[ g16 a] h8 h([ e c]
+    a) h c[ h16 a] h8[ c] d4~ %65
+    d8[ c16 h] c2 h4
+    c c d2
+    e8 e d4 c r\fermata \bar "|." %68 finis
+  }
+}
 
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus %27
+  De -- i, qui
+  tol -- lis pec -- ca -- ta, qui
+  tol -- lis pec -- ca -- ta, %30
+  pec -- ca -- ta mun --
+  di:
+  Do -- na no -- bis pa --
+  cem, pa -- cem, pa --
+  cem, pa -- cem, pa -- %35
+  cem, pa --
+  cem, pa -- cem,
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Mi -- se -- re -- re no -- bis.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% Do -- na no -- bis pa -- cem.
+  do -- na no -- bis pa --
+  cem, pa -- cem, pa -- %40
+  cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- cem.
+
+  Do -- na no -- bis pa -- %48
+  cem, pa -- cem, pa --
+  cem, pa -- cem, pa -- %50
+  _ cem, pa --
+  _ cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- %55
+  cem.
+
+  Pa -- %59
+  cem, pa -- %60
+  cem, pa --
+  cem, pa -- _ _
+  _ _ _ _
+  _ _ cem, pa --
+  cem, pa -- _ _ %65
+  _ _
+  cem, pa -- _
+  _ cem, pa -- cem. %68 finis
+}

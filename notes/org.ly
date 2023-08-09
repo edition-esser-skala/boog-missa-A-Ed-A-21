@@ -1048,3 +1048,161 @@ BenedictusBassFigures = \figuremode {
   <[6 5]>4 <6> \bo <[6 _]>4. <6 5>8
   <6 4>4 \bc <[5 3]>2. %60 finis
 }
+
+AgnusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \tempoAgnus
+    \mvTr c4\fE-\solo r8 d es c' h g
+    c c, f fis g g, h g
+    c c16 d es8 c f c16 d d8 d
+    es b16 c c8 c d a!16 h h8 g
+    c f es as g f g g, %5
+    c d\pE es f f es16 d es8 c
+    d c h g c c16 d es8 c
+    b a! g b es d c4
+    d g,8 g' c, es f a,
+    b d es g, a c d4 %10
+    es!8 d c4 d8 c b es
+    d c d d, g4 g'8\fE d16 es
+    es8 es f c16 d d8 d es b16 c
+    c8 c d a16 b b8 c d d,
+    g a\pE b c c b16 a b8 g %15
+    a g' fis d g, g' fis d
+    g g, g' f es c a d
+    g, h c16 d es f g8 g, h g
+    c c16 d es8 c f as b d,^\critnote
+    es g as c, d f g g, %20
+    c es f fis g f es as
+    g f g g, c4 r8 d\fE
+    es c' h g c c, f fis
+    g g, h g c c16 d es8 c
+    f c16 d d8 d es b16 c c8 c %25
+    d a!16 h h8 h c f es as
+    g f g g, c4 \key c \major c8-\tuttiE c
+    g'4 g, r g'
+    e d8 c f4 f,8 a'^\critnote
+    fis4 e8 d g4 g, %30
+    r8 c' as fis g2 \noBreak
+    g,1\fermata \bar "||"
+    \clef treble \tempoDona << {
+      \mvTr c''4._\fE_\tutti c8 h c d h \noBreak
+      c e d16 e c d h8 h e c
+      a h c h16 a h8 c d4 %35
+    } \\ {
+      R1
+      r2 g,4. g8
+      fis g a fis g a g16 a f g %35
+    } >>
+    \clef "treble_8" c,4. c8 h c d h
+    c e d16 e c d \clef bass g,4. g8
+    fis g a fis g a g16 a f g
+    e8 e a f d e f g16 f
+    e4 fis g c, %40
+    d8 c16 h a8 d g, g' a h
+    c c, d f g h, c e
+    f a, h d e e16 d c8 h
+    a f' d e a,4 r
+    R1 %45
+    r2 \clef "treble_8" << {
+      a''4. a8
+      gis a h gis a c h16 c a h
+      g8^\critnote
+    } \\ {
+      r8 c, f d
+      h c d e16 d c8 a g! fis
+      e
+    } >> \clef bass g[ c a] fis g a h16 a
+    gis8 \clef "treble_8" e'16[ d!] c8 h \clef bass a4. a8
+    gis a h gis a e a f %50
+    d d g f e e a g
+    fis4. e16 fis g4 r8 c
+    a fis d h' g e c a'
+    fis e16 d e8 fis g g fis e
+    d c h a g e' c d %55
+    g,4 r r2
+    R1
+    c4. c8 h c d h
+    c e d16 e c d h8 g c4
+    d2 g,8 g'4 f!8 %60
+    e e a f d e16 f g8 f
+    e c r c' d f, g h
+    c e, f a h d, e g
+    a c, d f g4 g,
+    g1~-\tasto %65
+    g
+    c8 c' h a g f e d
+    c a' f g c,4 r\fermata \bar "|." %68 finis
+  }
+}
+
+AgnusBassFigures = \figuremode {
+  r4. <6!>8 \bo <[6]>4 \bc q8 <7 [_!]>
+  r4 <_->8 <_!> <4> <_!>4.
+  r2 <_->4 <5->8 <6>16 <5->
+  r4 <5>8 <6->16 <5> r4 \bo <[5]>8 <_!>
+  r <_-> <6> <6> <6 4>4 \bc <[5] _!> %5
+  r4. <[_-]>8 <4! 2>8 \bo <[6]>4.
+  \bc <[5-]>4 <6>8 <7 [_!]> r2
+  <[6]>8 <6\\> r2 \bo <[6]>4
+  \bc <[_+]>2 <7>4 <[7]>8 <6>16 <5>
+  <7>4 <[7]>8 <6>16 <5> <7 [5!]>4 <[7] _+>4 %10
+  <5> \bo <[6-]>8 <5> <5! _+>4 \bc <[6]>
+  <4> <_+>2.
+  <5>8 <6>16 <5> r4 <5>8 <6>16 <5> r4
+  \bo <5 [_!]>8 \bassFigureExtendersOn <6 _!>16 \bc <5 [_!]> \bassFigureExtendersOff <_+>4 \bo <[6]>8 \bc q <4> <_+>
+  r2 <4\+ 2>8 <[6]>4. %15
+  r4 \bo <[6 _]>8 <7 _+>4. <6>8 \bc <[_+ _]>
+  <_->4 <_!>8 <\t> <6>4 <6\\>8 <7 [_+]>
+  \bo <[_! _]> <6 5!> <9 > <6> \bc <[_! _]>2
+  r <7 [_-]>4 <[7-]>8 <6>16 <5->
+  <7>4 <[7]>8 <6->16 <5> <7 [5!]>4 <[7] _!> %20
+  r <6- [_-]>8 <_!> \bo <[5!] _!>4 \bc <[6]>
+  <4> <_!>2 r8 <6!>
+  \bo <[6]>4 <6>8 \bc <[_!]> r4 <_->8 <_!>
+  <4> <_!>4. r2
+  <_->4 <5->8 <6>16 <[5-]> r4 <5>8 <6->16 <[5]> %25
+  r4 <5>8 <6>16 <[5]> r8 <_->8 \bo <[6]> <6>
+  <6 4>4 <5 _!>2 <_!>4
+  <6 4> \bc <[5] 3>2.
+  <6>4 \bo <[6- 4 2]>8 <\t \t \t> <9 4-> <8 3>4.
+  <6>4 <6 4 2\+>8 <\t \t \t> <9 4> \bc <[8 _! _]>4. %30
+  r8 <_-> <5-> <[7-] _!> \bo <[6- 4]>4 <5 3>8 <4 2>
+  \bc <[5 3]>1
+  r
+  r
+  r %35
+  <[5] 3>4 <6 4> <6> <5>8 <[6]>
+  r4 <_+>8 <\t> <[5 3]>4 <6 4>
+  <6>4 <5>8 <6> r \bo <[5]>16 \bc <[6\\]> r4
+  <6>2 \bo <[6]>8 \bc q <6 5> <3>
+  r4 <6>8 <5>4. <6 5>4 %40
+  <_+>8 \bo <[\tllur]>16 \bc <[6]> <7>8 <7 _+>4. <[6!]>8 <6 5>8
+  <9> <[8]> <9> <[6]> <9> <6> <9> <6>
+  <9> <6> <9> <6> <_+>4 <6 [4\+ 3]>8 <6\\>
+  r <5> <6 5> <_+> r2
+  r1 %45
+  r
+  r
+  r8 <6>4. <6\\ 5>8 \bo <[6]> <[6\\] 4\+> \bc <[\t] \t>
+  <6> <_+> <[5\+]> <6\\> <[5 3]>4 <6 4>
+  <6>4 \bo <[5]>8 \bc <[6]>2 <5>8 %50
+  <[7]>2 <6>
+  <7>4 <6>2.
+  r4 <6 [_+]>2 <6>4
+  q4 \bo <[6 _]>8 \bc <[6 5]> r2
+  <_+>4. \once \bassFigureExtendersOn q <6 5>8 <_+> %55
+  r1
+  r
+  \bo <[1]>8 \bc <[3]> <6> <4> <[6]>4 <5 3>8 <6>
+  r4 <_+>8 <\t> <[6]>4 <6 5>
+  \bo <[5 _+]>8 <6 4> \bc <[7 _+]>4 r4. <2>8 %60
+  \bo <[6]>2 r8 \bc q <3>4
+  <[6]>2 <9>8 <6> <9> <6>
+  <9> <6> <9> <6> <9> <6> <9> <6>
+  <9> <6> <9> <6> \bo <[5 3]>4 \bc <[6 4]>
+  r1 %65
+  r
+  r
+  r4 <6 5>2. %68 finis
+}

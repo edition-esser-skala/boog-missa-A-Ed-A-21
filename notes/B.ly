@@ -613,3 +613,88 @@ BenedictusBassoLyrics = \lyricmode {
   in ex -- cel -- sis, in ex --
   cel -- sis. %60 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 4/4 \autoBeamOff \tempoAgnus
+    R1*26 %26
+    r2 r4 \key c \major \mvTr c8\fE^\tuttiE c
+    g'4 g, r g'
+    e d8 c f4 f,8 a'
+    fis4 e8 d g4 g, %30
+    r8 c' as fis g2 \noBreak
+    g,1\fermata \bar "||"
+    \tempoDona R1*4 %36
+    r2 g'4. g8
+    fis g a([ fis)] g a( g16[ a f g)]
+    e8 e([ a f)] d e f[ g16 f]
+    e4 fis g c, %40
+    d8[ c16 h] a8[ d] g, g'([ a h)]
+    c c,([ d f)] g h,([ c e)]
+    f a,([ h d)] e e16([ d] c8[ h]
+    a) f' d([ e]) a,4 r
+    R1*3 %47
+    r8 g'([ c a)] fis g( a[ h16 a)]
+    gis8 r r4 a4. a8
+    gis a h([ gis)] a e([ a f)] %50
+    d d([ g f)] e e[ a g]
+    fis4. e16[ fis] g4 r8 c(
+    a[ fis)] d h'( g[ e)] c a'
+    fis[ e16 d] e8[ fis] g g([ fis e)]
+    d c([ h a)] g e'([ c d)] %55
+    g,4 r r2
+    R1
+    c4. c8 h c d([ h)]
+    c e( d16[ e c d]) h8 g( c4
+    d2) g,8 g'4 f!8 %60
+    e e a([ f)] d e16([ f] g8[ f)]
+    e4 r8 c' d[ f, g h]
+    c[ e, f a] h[ d, e g]
+    a[ c, d f] g4 g,
+    g1~ %65
+    g
+    c8 c'[ h a] g[ f e d ]
+    c a' f([ g)] c,4 r\fermata \bar "|." %68 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus %27
+  De -- i, qui
+  tol -- lis pec -- ca -- ta, qui
+  tol -- lis pec -- ca -- ta, %30
+  pec -- ca -- ta mun --
+  di:
+
+  Do -- na %37
+  no -- bis pa -- cem, pa --
+  cem, pa -- cem, pa -- _
+  _ _ cem, pa -- %40
+  _ _ cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- cem, pa --
+  cem, pa -- cem.
+
+  Pa -- cem, pa -- %48
+  cem, do -- na
+  no -- bis pa -- cem, pa -- %50
+  cem, pa -- cem, pa --
+  _ _ cem, pa --
+  cem, pa -- cem, pa --
+  _ _ cem, pa --
+  cem, pa -- cem, pa -- %55
+  cem.
+
+  Do -- na no -- bis pa --
+  cem, pa -- cem, pa --
+  cem, do -- na %60
+  no -- bis pa -- cem, pa --
+  cem, pa -- _
+  _ _
+  _ _ cem,
+  pa -- %65
+
+  cem, pa -- _
+  _ cem, pa -- cem. %68 finis
+}

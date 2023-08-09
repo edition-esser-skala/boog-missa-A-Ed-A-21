@@ -210,3 +210,40 @@ BenedictusClarinoII = {
     g4. g8 e2\fermata \bar "|." %60 finis
   }
 }
+
+AgnusClarinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*26 %26
+    r2 r4 e'8\fE e
+    e4 d r d
+    e e c c8 c
+    d4. d8 d4 d %30
+    R1 \noBreak
+    R\fermata \bar "||"
+    \tempoDona R1*6 %38
+    e4 r d r
+    e d d_\critnote r %40
+    r2 g,4_\critnote r8 d'
+    e4 r r2
+    R1
+    r4 r8 e,16 e e4 r
+    R1*9 %53
+    r2 d'4 r
+    r2 d8 e e d %55
+    d4 r r2
+    R1
+    c4 r g r8 d'
+    e4 r d r
+    r2 r8 g, g g %60
+    c4 r g r
+    c r r r8 d
+    e4 r r r8 d
+    c e d8. c16 g4 r
+    r2 d'4 r8 d %65
+    e4 r d4. d8
+    c4 r g4. g8
+    e16 g e c g'8. g16 e4 r\fermata \bar "|." %68 finis
+  }
+}

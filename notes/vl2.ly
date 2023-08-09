@@ -59,10 +59,10 @@ KyrieViolinoII = {
     e r8 e f d'8. f,16 e d
     e8 c'8. e,16 d c d8 h'8. d,16 c h
     c8 a'8. c,16 h a h8 g4 g8
-    fis g a fis g a16 g f8 g16 f
+    fis g a fis g a16 g f8 g16 f %95
     e4. d16 c d2
     c8 g'16 g' g, g' g, g' g,8 d' d d
-    e e d8. d16 c4 r\fermata \bar "|."
+    e e d8. d16 c4 r\fermata \bar "|." %98 finis
   }
 }
 
@@ -414,5 +414,55 @@ BenedictusViolinoII = {
     fis2 g4 e
     a a8. g16 e'4 e8 d^\critnote
     \appoggiatura e4 d2^\critnote c\fermata \bar "|." %60 finis
+  }
+}
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \dorian \time 4/4 \tempoAgnus
+    R1*26 %26
+    r2 r4 \key c \major e'8\fE e
+    e4 d r h
+    c8 c b b b8. a16 a4
+    r8 d c c c8. h16 h4 %30
+    r8 es, es es es4 d8 c \noBreak
+    d1\fermata \bar "||"
+    \tempoDona R1 \noBreak
+    r2 g4. g8
+    fis g a fis g a g16 a f g %35
+    e8 e a f d e f e16 d
+    e4 fis g r8 e
+    a g16 fis e8 a g e16 fis g4
+    g^\critnote r r2
+    r g4. g8 %40
+    fis g a fis g g f g
+    g4 r8 a16 f d4 g8 e
+    c4 f8 d h gis' a h
+    c a' h, gis' a,4 d8\p c
+    h g c h a4 h8 a %45
+    gis e fis gis a4.\f a8
+    gis a h gis a c h16 c a h
+    g8 h g a a h a fis
+    e gis gis4\trill a r
+    r2 r4 r8 a %50
+    a4 g! g8 g e fis16 g
+    a2 d,4 r8 g
+    a4 fis8 fis g4 e8 e
+    fis4 g8 a h d16 d' d, d' d, d'
+    d, d' d, d' d, d' d, e32 fis g16 d c h a8 fis' %55
+    g,4 r8 d\p e c a e'
+    f! d h f' g4 a8 h
+    c e,\f a f d e f g16 f
+    e8 g fis-\critnote g16 a g8 h e c
+    a h c h16 a h2 %60
+    c4 r8 c f e d4
+    e r8 e f d'8. f,16 e d
+    e8 c'8. e,16 d c d8 h'8. d,16 c h
+    c8 a'8. c,16 h a h8 g4 g8
+    fis g a fis g a16 g f8 g16 f %65
+    e4. d16 c d2
+    c8 g'16 g' g, g' g, g' g,8 d' d d
+    e e d8. d16 c4 r\fermata \bar "|." %68 finis
   }
 }
